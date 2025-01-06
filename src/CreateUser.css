@@ -1,0 +1,75 @@
+/* Container for the form */
+.create-user-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Form heading */
+  .create-user-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #224e35;
+  }
+  .user-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  /* Form labels */
+  .create-user-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  .create-user-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Submit button */
+  .create-user-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c4eede;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .create-user-container button:hover {
+    background-color: #c4eede;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .create-user-container {
+      padding: 10px;
+    }
+  
+    .create-user-container h1 {
+      font-size: 20px;
+    }
+  
+    .create-user-container input,
+    .create-user-container button {
+      font-size: 14px;
+    }
+  }
+  

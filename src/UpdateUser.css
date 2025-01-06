@@ -1,0 +1,68 @@
+/* Container for the form */
+.update-user-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Form heading */
+  .update-user-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #224e35;
+  }
+  
+  /* Form labels */
+  .update-user-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  .update-user-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Submit button */
+  .update-user-container button {
+    width: 100%;
+    padding: 10px;
+    background-color:#c4eede;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .update-user-container button:hover {
+    background-color:#c4eede;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .update-user-container {
+      padding: 10px;
+    }
+  
+    .update-user-container h1 {
+      font-size: 20px;
+    }
+  
+    .update-user-container input,
+    .update-user-container button {
+      font-size: 14px;
+    }
+  }
+  
