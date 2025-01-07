@@ -2,9 +2,9 @@ import React from "react";
 
 import { BrowserRouter as Router , Routes , Route } from "react-router-dom";
 
-import Updateuser from "./EditUser";
+import UpdateUser from "./UpdateUser";
 import User from "./User";
-import Createuser from "./Createuser";
+import CreateUser from "./CreateUser";
 
 
 const Apps = () => {
@@ -14,8 +14,8 @@ const Apps = () => {
             <Router>
                 <Routes>
                     <Route path="/" element={<User/>} />
-                    <Route path="/create" element={<Createuser/>} />  
-                    <Route path="/update/:id" element={<Updateuser/>} />
+                    <Route path="/create" element={<CreateUser/>} />  
+                    <Route path="/update/:id" element={<UpdateUser/>} />
                 
                 </Routes>
             </Router>    
