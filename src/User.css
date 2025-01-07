@@ -19,13 +19,13 @@ body {
   }
   
   /* Image styling */
-  .user-image {
+ /* .user-image {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-  }
+  }*/
   
   /* Create button container */
   .create-button-container {
