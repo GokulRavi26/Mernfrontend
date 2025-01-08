@@ -39,11 +39,7 @@ const User = () => {
 <div>
         <h1 className="userslist-heading">Welcome..!</h1>
       </div>
-      <img
-        src="https://i.pinimg.com/originals/51/bd/c9/51bdc900f42f3fc2d25ff6eaba2e15a1.gif"
-        className="user-image"
-        alt="Centered"
-      />
+     
       <br></br>
       <br></br>
 
