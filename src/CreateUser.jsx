@@ -84,11 +84,7 @@ const CreateUser = () => {
   return (
     <div className="create-user-container">
       <h1>Create User</h1>
-      <img
-        src="https://i.pinimg.com/originals/9c/83/88/9c838839fcf2197a8d8007b27ba713a3.gif"
-        className="user-image"
-        alt="Centered"
-      />
+      
       <form onSubmit={submit}>
         <label>Enter your name:</label>
         <input
